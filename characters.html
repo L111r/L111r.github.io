@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>怪奇物语 - 角色解析</title>
+    <style>
+        /* 全局样式与首页统一，保证风格一致 */
+        body {
+            background-color: #0a192f;
+            color: #ccd6f6;
+            font-family: "Courier New", "Arial Black", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #112240;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #00ff9c;
+        }
+        nav a {
+            color: #ccd6f6;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #00ff9c;
+            text-shadow: 0 0 10px #00ff9c;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #00ff9c;
+            text-align: center;
+            font-size: 48px;
+            margin: 30px 0;
+            text-shadow: 0 0 15px #00ff9c;
+        }
+        h2 {
+            color: #00ff9c;
+            margin: 30px 0 15px;
+            border-bottom: 1px solid #00ff9c;
+            padding-bottom: 10px;
+        }
+        /* 角色卡片样式 */
+        .character-card {
+            margin: 30px 0;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .character-img {
+            width: 200px;
+            height: auto;
+            border: 3px solid #00ff9c;
+            box-shadow: 0 0 15px rgba(0, 255, 156, 0.5);
+            flex-shrink: 0;
+        }
+        .character-info h3 {
+            color: #39ff14;
+            font-size: 24px;
+            margin: 0 0 10px;
+        }
+        .character-info p {
+            font-size: 16px;
+            line-height: 1.7;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">首页</a>
+        <a href="characters.html">角色解析</a>
+        <a href="seasons.html">季节梳理</a>
+        <a href="settings.html">经典设定</a>
+        <a href="eastereggs.html">幕后彩蛋</a>
+    </nav>
+
+    <div class="container">
+        <h1>主要角色解析</h1>
+
+        <!-- 角色1：十一 -->
+        <div class="character-card">
+            <!-- 图片替换提示：将十一的角色图重命名为eleven.jpg，放入img文件夹 -->
+            <img src="img/eleven.jpg" alt="十一" class="character-img">
+            <div class="character-info">
+                <h3>十一（Jane Hopper / Eleven）</h3>
+                <p>由米莉·波比·布朗饰演，本名简·艾弗斯，是霍金斯实验室的实验对象，拥有心灵感应、隔空移物等强大超能力，童年在实验室中被严格控制，缺乏正常的社会认知。</p>
+                <p>她逃离实验室后遇到了迈克等人，成为他们的朋友，逐渐学会了表达情感和融入社会。她是对抗颠倒世界怪物的核心力量，与迈克有着深厚的感情，后期被霍珀警长收养，拥有了温暖的家庭。</p>
+            </div>
+        </div>
+
+        <!-- 角色2：迈克·惠勒 -->
+        <div class="character-card">
+            <!-- 图片替换提示：将迈克的角色图重命名为mike.jpg，放入img文件夹 -->
+            <img src="img/mike.jpg" alt="迈克·惠勒" class="character-img">
+            <div class="character-info">
+                <h3>迈克·惠勒（Mike Wheeler）</h3>
+                <p>由菲恩·伍法德饰演，是主角小队的核心人物，性格善良、勇敢，重视友情。他是第一个发现并收留十一的人，对十一产生了深深的爱慕之情。</p>
+                <p>在威尔失踪后，他带领朋友一起寻找真相，面对超自然危险时从不退缩，始终坚定地站在十一身边，是小队中的“领导者”之一，热爱D&D（龙与地下城）桌游。</p>
+            </div>
+        </div>
+
+        <!-- 角色3：霍珀警长 -->
+        <div class="character-card">
+            <!-- 图片替换提示：将霍珀警长的角色图重命名为hopper.jpg，放入img文件夹 -->
+            <img src="img/hopper.jpg" alt="吉姆·霍珀" class="character-img">
+            <div class="character-info">
+                <h3>吉姆·霍珀（Jim Hopper）</h3>
+                <p>由大卫·哈伯饰演，霍金斯小镇的警长，性格粗犷但内心柔软，曾因女儿的离世而陷入颓废，后期逐渐找回责任感。</p>
+                <p>他是调查威尔失踪案的核心人物，逐渐发现了霍金斯实验室的秘密，后期收养了十一，成为她的养父，为了保护十一和小镇居民，多次以身犯险，是剧中的“硬汉柔情”代表。</p>
+            </div>
+        </div>
+
+        <!-- 角色4：威尔·拜尔斯 -->
+        <div class="character-card">
+            <!-- 图片替换提示：将威尔的角色图重命名为will.jpg，放入img文件夹 -->
+            <img src="img/will.jpg" alt="威尔·拜尔斯" class="character-img">
+            <div class="character-info">
+                <h3>威尔·拜尔斯（Will Byers）</h3>
+                <p>由诺亚·施纳普饰演，迈克的好友，性格内向、敏感，热爱绘画，是第一季中第一个被吸入颠倒世界的人。</p>
+                <p>他在颠倒世界中艰难求生，被救出后仍与颠倒世界有着特殊的“连接”，能够感知到怪物的存在和动向，成为对抗超自然力量的重要“预警者”，后期逐渐摆脱阴影，找回自我。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
